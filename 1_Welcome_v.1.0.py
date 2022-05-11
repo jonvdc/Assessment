@@ -22,12 +22,18 @@ def yes_no(question_text):
 
 # Function to display instructions
 def instructions():
-    print("How to Play")
+    print("- How to Play -")
     print()
-    print("Rules of the game will go here")
     print()
-    print("Program continues")
+    print("You will be asked _ questions")
     print()
+    print("Try to answer each question correctly")
+    print()
+    print("For each question answered correctly, "
+          "you will gain a point")
+    print("You need _ points to pass")
+    print()
+    print("Good luck!")
 
 
 # Main Routine
