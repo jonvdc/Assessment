@@ -31,8 +31,8 @@ def instructions():
     print()
     print("For each question answered correctly, "
           "you will gain a point")
-    print("You need _ points to pass")
     print()
+    print("Answers will be shown at the end")
     print("Good luck!")
 
 

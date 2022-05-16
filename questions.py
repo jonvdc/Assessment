@@ -37,6 +37,6 @@ quiz = {
         "answer": "Moana"
     },
     10: {
-        "question": "Maori for 'Ocean'",
-        "answer": "Moana"
+        "question": "'One hundred' in maori?",
+        "answer": "Kotahi rau"
     }}
