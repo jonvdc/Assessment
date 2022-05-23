@@ -9,7 +9,7 @@ def check_ans(question, ans, attempts, score):
     # to make sure the quiz is not Case sensitive.
 
     if quiz[question]['answer'].lower() == ans.lower():
-        print(f"Correct Answer! \nYour score is {score + 1}!")
+        print(f"That's Correct! Your score is now \n{score + 1}/10")
         return True
     else:
         print(f"Sorry, that's incorrect."
@@ -23,7 +23,11 @@ def print_dictionary():
             print(key + ':', ques_answer[key])
 
 
-# python project.py
+# enables user to 'skip' the question
+# if they aren't confident enough to answer it
+
+# gives the user 3 attempts
+# to get the question right
 while True:
     score = 0
     for question in quiz:
@@ -42,8 +46,8 @@ while True:
 
     break
 
-print(f"Your final score is {score}!\n\n")
-print("Here are the answers ;)\n")
+# Tells the user what their final score is
+print(f"Your final score is {score}/10!\n\n")
+print("Here are the answers: \n")
 print_dictionary()
-print("")
-
+print("Thanks for playing!")
